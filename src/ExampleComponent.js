@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { CHECK1, DECREMENT, INCREMENT } from "./actionTypes";
 
-const Component = () => {
+function Component() {
   const { check1, counter } = useSelector(state => ({
     check1: state.reducer1.check1,
     counter: state.reducer2.counter

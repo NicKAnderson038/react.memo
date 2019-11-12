@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { CHECK2 } from "./actionTypes";
 
-const Component = () => {
+function Component() {
   const { check2 } = useSelector(state => ({
     check2: state.reducer1.check2
   }));
