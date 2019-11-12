@@ -11,13 +11,13 @@ const MyFetchingComponent = () => {
 };
 
 function Component() {
-    useEffect(() => {
-      const fetchData = async () => {
-        const result = await MyFetchingComponent();
-        console.log(result);
-      };
-      fetchData();
-    }, []);
+    // useEffect(() => {
+    //   const fetchData = async () => {
+    //     const result = await MyFetchingComponent();
+    //     console.log(result);
+    //   };
+    //   fetchData();
+    // }, []);
 
   const { check1, counter } = useSelector(state => ({
     check1: state.reducer1.check1,
